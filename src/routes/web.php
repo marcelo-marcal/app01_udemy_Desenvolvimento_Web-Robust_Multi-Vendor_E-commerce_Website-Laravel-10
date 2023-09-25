@@ -30,5 +30,5 @@ Route::get('contact/{id}', function($id) {
 });
 
 Route::get('home', function() {
-    return "<a href=`".route('contact')."`>Contact</a>";
+    return "<a href='".route('contact')."'>Contact</a>";
 });
